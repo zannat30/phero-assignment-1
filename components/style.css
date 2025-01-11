@@ -257,3 +257,45 @@ main {
     background: #ffffff;
     color: #FFC239;
 }
+
+
+/* quote-section */
+#quote_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 48px 24px 48px 24px;
+    /* background-image: image("images/quote-bg.png"); */
+    box-sizing: border-box;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+    background: #ffffff;
+    position: relative;
+}
+
+#quote-bg {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 20px;
+}
+
+.quote_text {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.signature h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signature p {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
